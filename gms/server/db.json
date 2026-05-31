@@ -1,0 +1,299 @@
+{
+  "users": [
+    {
+      "id": "id1",
+      "name": "Rishav Barman",
+      "email": "rishavbarman7@gmail.com",
+      "password": "$2b$10$cwhrvugFsuFDqnN.XNAyAei7nj7UTrWqJ6i9IP9D6v6i7EDCxtAsi",
+      "role": "member",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rishav%20Barman",
+      "phone": "7001124568",
+      "createdAt": "2026-05-25T10:58:59.322Z"
+    },
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@titan.com",
+      "role": "admin",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Admin",
+      "password": "$2b$10$vtlFmaoVb/qeH1DOSoGb9eTVDcL5NfzIGxI7zGenxfcNLeNy0RqTO"
+    },
+    {
+      "id": "2",
+      "name": "John Trainer",
+      "email": "john@titan.com",
+      "role": "trainer",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+      "password": "$2b$10$vtlFmaoVb/qeH1DOSoGb9eTVDcL5NfzIGxI7zGenxfcNLeNy0RqTO"
+    },
+    {
+      "id": "3",
+      "name": "Sarah Member",
+      "email": "sarah@titan.com",
+      "role": "member",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+      "password": "$2b$10$vtlFmaoVb/qeH1DOSoGb9eTVDcL5NfzIGxI7zGenxfcNLeNy0RqTO"
+    }
+  ],
+  "trainers": [
+    {
+      "id": "t1",
+      "name": "John Doe",
+      "email": "john@titan.com",
+      "specialization": "Bodybuilding",
+      "experience": "8 years",
+      "rating": 4.8,
+      "members": 12,
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=John"
+    },
+    {
+      "id": "t2",
+      "name": "Jane Smith",
+      "email": "jane@titan.com",
+      "specialization": "Yoga & Pilates",
+      "experience": "5 years",
+      "rating": 4.9,
+      "members": 8,
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jane"
+    },
+    {
+      "id": "t3",
+      "name": "Mike Ross",
+      "email": "mike@titan.com",
+      "specialization": "CrossFit",
+      "experience": "6 years",
+      "rating": 4.7,
+      "members": 15,
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Mike"
+    },
+    {
+      "id": "t4",
+      "name": "Elena Gilbert",
+      "email": "elena@titan.com",
+      "specialization": "Zumba",
+      "experience": "4 years",
+      "rating": 4.6,
+      "members": 10,
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elena"
+    },
+    {
+      "id": "t5",
+      "name": "David Gandy",
+      "email": "david@titan.com",
+      "specialization": "Powerlifting",
+      "experience": "10 years",
+      "rating": 5,
+      "members": 20,
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David"
+    }
+  ],
+  "plans": [
+    {
+      "id": "p1",
+      "name": "Basic",
+      "price": 29,
+      "duration": "1 Month",
+      "features": [
+        "Gym Access",
+        "Locker Room"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Pro",
+      "price": 79,
+      "duration": "3 Months",
+      "features": [
+        "Gym Access",
+        "Locker Room",
+        "Group Classes"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Elite",
+      "price": 250,
+      "duration": "12 Months",
+      "features": [
+        "Gym Access",
+        "Locker Room",
+        "Group Classes",
+        "Personal Trainer"
+      ]
+    }
+  ],
+  "members": [
+    {
+      "id": "m3",
+      "name": "Member 3",
+      "email": "member3@example.com",
+      "phone": "+1 555-0102",
+      "joinDate": "2025-06-23",
+      "plan": "Pro",
+      "expiryDate": "2026-06-11",
+      "trainer": "David Gandy",
+      "status": "Active",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Member3"
+    },
+    {
+      "id": "m4",
+      "name": "Member 4",
+      "email": "member4@example.com",
+      "phone": "+1 555-0103",
+      "joinDate": "2026-02-03",
+      "plan": "Elite",
+      "expiryDate": "2026-06-16",
+      "trainer": "David Gandy",
+      "status": "Inactive",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Member4"
+    },
+    {
+      "id": "m5",
+      "name": "Member 5",
+      "email": "member5@example.com",
+      "phone": "+1 555-0104",
+      "joinDate": "2026-01-11",
+      "plan": "Elite",
+      "expiryDate": "2026-05-31",
+      "trainer": "Jane Smith",
+      "status": "Active",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Member5"
+    },
+    {
+      "id": "m6",
+      "name": "Member 6",
+      "email": "member6@example.com",
+      "phone": "+1 555-0105",
+      "joinDate": "2026-04-27",
+      "plan": "Pro",
+      "expiryDate": "2026-06-03",
+      "trainer": "Elena Gilbert",
+      "status": "Active",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Member6"
+    },
+    {
+      "id": "m7",
+      "name": "Member 7",
+      "email": "member7@example.com",
+      "phone": "+1 555-0106",
+      "joinDate": "2025-12-25",
+      "plan": "Pro",
+      "expiryDate": "2026-06-21",
+      "trainer": "David Gandy",
+      "status": "Active",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Member7"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay1",
+      "memberId": "m1",
+      "memberName": "Member 1",
+      "amount": 250,
+      "date": "2026-03-26",
+      "method": "Credit Card",
+      "status": "Pending"
+    },
+    {
+      "id": "pay2",
+      "memberId": "m2",
+      "memberName": "Member 2",
+      "amount": 29,
+      "date": "2026-05-21",
+      "method": "PayPal",
+      "status": "Paid"
+    },
+    {
+      "id": "pay3",
+      "memberId": "m7",
+      "memberName": "Member 7",
+      "amount": 79,
+      "date": "2026-04-04",
+      "method": "Credit Card",
+      "status": "Paid"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att1",
+      "memberId": "m1",
+      "memberName": "Member 1",
+      "date": "2026-05-18",
+      "checkIn": "08:00 AM",
+      "checkOut": "09:30 AM",
+      "status": "Present"
+    }
+  ],
+  "workoutPlans": [
+    {
+      "id": "wp1",
+      "name": "Mass Gainer",
+      "level": "Advanced",
+      "exercises": [
+        {
+          "name": "Deadlift",
+          "sets": 4,
+          "reps": 8
+        },
+        {
+          "name": "Bench Press",
+          "sets": 4,
+          "reps": 10
+        },
+        {
+          "name": "Squats",
+          "sets": 4,
+          "reps": 12
+        }
+      ]
+    },
+    {
+      "id": "wp2",
+      "name": "Fat Shredder",
+      "level": "Intermediate",
+      "exercises": [
+        {
+          "name": "Burpees",
+          "sets": 3,
+          "reps": 20
+        },
+        {
+          "name": "Mountain Climbers",
+          "sets": 3,
+          "reps": 30
+        },
+        {
+          "name": "Plank",
+          "sets": 3,
+          "reps": "60s"
+        }
+      ]
+    }
+  ],
+  "dietPlans": [
+    {
+      "id": "dp1",
+      "name": "High Protein",
+      "calories": 2500,
+      "macros": {
+        "protein": "40%",
+        "carbs": "30%",
+        "fat": "30%"
+      },
+      "meals": [
+        {
+          "time": "Breakfast",
+          "menu": "Oatmeal with Protein Powder"
+        },
+        {
+          "time": "Lunch",
+          "menu": "Grilled Chicken with Quinoa"
+        },
+        {
+          "time": "Dinner",
+          "menu": "Salmon with Asparagus"
+        }
+      ]
+    }
+  ]
+}
